@@ -9,4 +9,8 @@ def path_list(number: int):
         answer.append(number)
     return(answer)
 
-print(path_list(37))
+
+# testing area
+
+if(__name__ == '__main__'):
+    print(path_list(7))
